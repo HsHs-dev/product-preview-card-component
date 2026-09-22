@@ -50,4 +50,78 @@ body {
 
 .content {
   padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  color: var(--grey);
+  text-transform: uppercase;
+  letter-spacing: 0.313rem;
+}
+
+.main-title {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.price {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.current-price {
+  font-family: "Fraunces";
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--green-500);
+}
+
+.old-price {
+  font-size: 0.813rem;
+  font-weight: 500;
+  color: var(--grey);
+}
+
+.card button {
+  all: unset;
+  cursor: pointer;
+  background-color: var(--green-500);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1rem 3.976rem;
+  font-size: 0.875rem;
+  line-height: 1.1;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color 300ms ease-in-out;
+}
+
+.card button:focus {
+  outline: 2px solid black;
+}
+
+.card button:hover {
+  background-color: var(--green-700);
 }
