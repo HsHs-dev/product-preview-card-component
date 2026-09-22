@@ -38,6 +38,10 @@ body {
 
 /* Image Styling */
 
+.card picture {
+  display: block;
+}
+
 .card img {
   width: 100%;
   max-width: 18.75rem;
@@ -81,6 +85,8 @@ body {
   color: var(--grey);
 }
 
+/* Price Tag Styling */
+
 .price {
   display: flex;
   gap: 1rem;
@@ -100,6 +106,8 @@ body {
   font-weight: 500;
   color: var(--grey);
 }
+
+/* "Add To Cart" button Styling */
 
 .card button {
   all: unset;
@@ -124,4 +132,13 @@ body {
 
 .card button:hover {
   background-color: var(--green-700);
+}
+
+/* Media Queires */
+
+/* 440px and below */
+@media (max-width: 27.5rem) {
+  .card {
+    flex-direction: column;
+  }
 }
