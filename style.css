@@ -25,6 +25,8 @@ body {
   align-items: center;
 }
 
+/* Card General Styling */
+
 
 .card {
   width: 100%;
@@ -34,6 +36,8 @@ body {
   background-color: var(--white);
 }
 
+/* Image Styling */
+
 .card img {
   width: 100%;
   max-width: 18.75rem;
@@ -41,6 +45,8 @@ body {
   display: block;
   border-radius: 0.5rem 0 0 0.5rem;
 }
+
+/* Content Styling */
 
 .content {
   padding: 2rem;
